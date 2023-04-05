@@ -1,0 +1,154 @@
+
+body {
+    font-family: arial;
+    color: black;
+    background-color: skyblue;
+}
+
+p {
+    font-family: serif;
+    font-size: 28px;
+    color: brown;
+    background-color: none;
+    padding: 10px;
+    margin: 22px;
+    margin-right: 150px;
+}
+
+button {
+    text-align: right;
+    display: block;
+    margin: auto;
+}
+
+article {
+    font-family: helvetica;
+    color: black;
+    background-color: #FCA78A;
+    font-size: 25px;
+    padding: 20px;
+    margin: 20px;
+    align="center"
+    margin-right: 150px;
+}
+
+h1 {
+    font-family: helvetica;
+    color: black;
+    background-color: #B3E6B5;
+    padding: 30px;
+    margin: 30px;
+}
+
+h2 {
+    font-family: georgia;
+    color: black;
+    background-color: lightyellow;
+    padding: 12px;
+    margin: 12px;
+    text-align: center;
+}
+
+h3 {
+    font-family: arial;
+    color: black;
+    background-color: #B3E6B5;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+title {
+    color: black;
+}
+
+header {
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+footer {
+    font-family: sans-serif;
+    color: black;
+    background-color: skyblue;
+    text-align: right;
+}
+
+li {
+  font-family: helvetica;
+  font-size: 25px;
+  color: black;
+  background-color: #FCA78A;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 150px;
+}
+
+table, th, td {
+  font-family: serif;
+  font-size: 30px;
+  border: 2px solid black;
+  background-color: white;
+  align: center;
+}
+
+#specialbox {
+   background-color: yellow;
+   box-shadow: 10px 10px; 
+}
+
+a:link {
+  color: green;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: blue;
+  text-decoration: underline;
+}
+
+.next {
+  color: black;
+  text-decoration: underline;
+  font-size: 20px;
+  text-align: right;
+}
+
+.back {
+  color: black;
+  text-decoration: underline;
+  font-size: 20px;
+  text-align: left;
+}
+
+.centerpics {
+    margin: 5px auto 5px;
+    display: block;
+}
+
+.topnavigation {
+    background-color: #FCA78A;
+    overflow: hidden;
+    font-family: sans-serif;
+  }
+  
+.topnavigation a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+.topnavigation a:hover {
+    background-color: lightgrey;
+    color: black;
+  }
+  
+  .topnavigation a.active {
+    background-color: #04AA6D;
+    color: black;
+  }

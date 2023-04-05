@@ -1,0 +1,154 @@
+
+body {
+    font-family: calibri;
+    color: black;
+    background-color: red;
+}
+
+p {
+    font-family: arial;
+    font-size: 40px;
+    color: lightgrey;
+    background-color: purple;
+    padding: 20px;
+    margin: 30px;
+    margin-right: 80px;
+}
+
+button {
+    text-align: right;
+    display: block;
+    margin: auto;
+}
+
+article {
+    font-family: Blippo;
+    color: black;
+    background-color: lightgreen;
+    font-size: 15px;
+    padding: 10px;
+    margin: 30px;
+    align="left"
+    margin-right: 90px;
+}
+
+h1 {
+    font-family: Florence;
+    color: black;
+    background-color: lightyellow;
+    padding: 40px;
+    margin: 10px;
+}
+
+h2 {
+    font-family: georgia;
+    color: black;
+    background-color: blue;
+    padding: 20px;
+    margin: 5px;
+    text-align: right;
+}
+
+h3 {
+    font-family: calibri;
+    color: black;
+    background-color: orange;
+    padding: 20px;
+    margin: 20px;
+    text-align: right;
+}
+
+title {
+    color: black;
+}
+
+header {
+    font-family: Monaco;
+    color: black;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+footer {
+    font-family: Garamond;
+    color: black;
+    background-color: skyblue;
+    text-align: left;
+}
+
+li {
+  font-family: Noto;
+  font-size: 35px;
+  color: black;
+  background-color: lightred;
+  padding: 30px;
+  margin: 20px;
+  margin-right: 100px;
+}
+
+table, th, td {
+  font-family: arial;
+  font-size: 30px;
+  border: 4px solid black;
+  background-color: lightgrey;
+  align: center;
+}
+
+#specialbox {
+   background-color: pink;
+   box-shadow: 30px 30px; 
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+  text-decoration: underline;
+}
+
+.next {
+  color: black;
+  text-decoration: underline;
+  font-size: 40px;
+  align: right;
+}
+
+.back {
+  color: black;
+  text-decoration: underline;
+  font-size: 20px;
+  text-align: left;
+}
+
+.centerpics {
+    margin: 10px auto 10px;
+    display: block;
+}
+
+.topnavigation {
+    background-color: #lightpurple;
+    overflow: hidden;
+    font-family: helvetica;
+  }
+  
+.topnavigation a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+.topnavigation a:hover {
+    background-color: yellow;
+    color: black;
+  }
+  
+  .topnavigation a.active {
+    background-color: green;
+    color: black;
+  }
